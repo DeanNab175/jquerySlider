@@ -21,6 +21,8 @@ body, html {
     width: 100%;
     overflow: hidden;
     position: relative;
+    background: #fff;
+    padding: 1em;
 }
 
 #slider .slides {
@@ -29,10 +31,10 @@ body, html {
     padding: 0;
 }
 
-#slider .slide {
+#slider .slides .slide {
     float: left;
     list-style-type: none;
-    width: 100%;
+    /* width: 100%; */
 }
 
 #slider .slide img {
